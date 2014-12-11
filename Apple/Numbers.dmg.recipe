@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+	 <string>Numbers is a spreadsheet program by Apple</string>
+    <key>Identifier</key>
+    <string>edu.goshen.sethku.numbers</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>Numbers</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>destination_path</key>
+                <string>/tmp/Numbers/Numbers.app</string>
+                <key>source_path</key>
+                <string>/Applications/Numbers.app</string>
+					 <key>overwrite</key>
+					 <string>True</string>
+            </dict>
+            <key>Processor</key>
+            <string>Copier</string>
+        </dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_root</key>
+                <string>/tmp/Numbers</string>
+					 <key>dmg_path</key>
+					 <string>/tmp/Numbers.dmg</string>
+            </dict>
+            <key>Processor</key>
+            <string>DmgCreator</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>

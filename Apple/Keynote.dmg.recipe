@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+	 <string>Keynote is a presentation program by Apple</string>
+    <key>Identifier</key>
+    <string>edu.goshen.sethku.keynote</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>Keynote</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>destination_path</key>
+                <string>/tmp/Keynote/Keynote.app</string>
+                <key>source_path</key>
+                <string>/Applications/Keynote.app</string>
+					 <key>overwrite</key>
+					 <string>True</string>
+            </dict>
+            <key>Processor</key>
+            <string>Copier</string>
+        </dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_root</key>
+                <string>/tmp/Keynote</string>
+					 <key>dmg_path</key>
+					 <string>/tmp/Keynote.dmg</string>
+            </dict>
+            <key>Processor</key>
+            <string>DmgCreator</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>
