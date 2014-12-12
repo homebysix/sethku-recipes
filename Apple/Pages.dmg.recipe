@@ -5,7 +5,7 @@
     <key>Description</key>
 	 <string>Pages in a Word Processing program by Apple</string>
     <key>Identifier</key>
-    <string>edu.goshen.sethku.pages</string>
+    <string>com.github.sethku.dmg.pages</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

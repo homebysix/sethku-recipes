@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Imports Keynote into Munki</string>
     <key>Identifier</key>
-    <string>edu.goshen.sethku.keynote.munki</string>
+    <string>com.github.sethku.munki.keynote</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -35,7 +35,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>edu.goshen.sethku.keynote</string>
+    <string>com.github.sethku.dmg.keynote</string>
     <key>Process</key>
     <array>
         <dict>

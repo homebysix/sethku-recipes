@@ -5,7 +5,7 @@
     <key>Description</key>
 	 <string>Numbers is a spreadsheet program by Apple</string>
     <key>Identifier</key>
-    <string>edu.goshen.sethku.numbers</string>
+    <string>com.github.sethku.dmg.numbers</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Imports Numbers into Munki</string>
     <key>Identifier</key>
-    <string>edu.goshen.sethku.numbers.munki</string>
+    <string>com.github.sethku.munki.numbers</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -35,7 +35,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>edu.goshen.sethku.numbers</string>
+    <string>com.github.sethku.dmg.numbers</string>
     <key>Process</key>
     <array>
         <dict>

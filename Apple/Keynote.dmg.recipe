@@ -5,7 +5,7 @@
     <key>Description</key>
 	 <string>Keynote is a presentation program by Apple</string>
     <key>Identifier</key>
-    <string>edu.goshen.sethku.keynote</string>
+    <string>com.github.sethku.dmg.keynote</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
