@@ -25,7 +25,6 @@
 				<key>result_output_var_name</key>
 				<string>version</string>
 				<key>url</key>
-			<!--	<string>https://my.vmware.com/web/vmware/details?productId=578&amp;rPId=12718&amp;downloadGroup=CART16Q3_MAC_420</string>-->
 				<string>https://my.vmware.com/web/vmware/details?downloadGroup=CART16Q3_MAC_420&amp;productId=578&amp;rPId=12718</string>
 			</dict>
 			<key>Processor</key>
