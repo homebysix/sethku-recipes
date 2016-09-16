@@ -3,25 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.VMwareHorizonClient</string>
+	<string>local.munki.BlueJ</string>
 	<key>Input</key>
 	<dict>
+		<key>BASE_URL</key>
+		<string>https://www.bluej.org</string>
+		<key>DOWNLOAD_URL</key>
+		<string>%BASE_URL%/versions.html</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Programming</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>vmware/%NAME%</string>
+		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>view</string>
+		<string>BlueJ</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>An Application to access many virtual desktops</string>
+			<string>A free Java Development Environment designed for beginners, used by millions worldwide.</string>
 			<key>developer</key>
-			<string>VMware</string>
+			<string>BlueJ</string>
 			<key>display_name</key>
-			<string>VMware Horizon Client</string>
+			<string>BlueJ</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -29,6 +37,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.sethku.munki.VMwareHorizonClient</string>
+	<string>com.github.n8felton.munki.BlueJ</string>
 </dict>
 </plist>

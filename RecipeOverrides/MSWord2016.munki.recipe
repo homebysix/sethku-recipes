@@ -28,6 +28,14 @@
 			</array>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Microsoft</string>
+			<key>display_name</key>
+			<string>Microsoft Word for Mac</string>
+			<key>icon_name</key>
+			<string>MSWord.png</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>update_for</key>

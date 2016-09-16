@@ -3,25 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.VMwareHorizonClient</string>
+	<string>local.munki.DraftSight</string>
 	<key>Input</key>
 	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://www.draftsight.com/download-mac</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>vmware/%NAME%</string>
+		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>view</string>
+		<string>DraftSight</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Academic</string>
 			<key>description</key>
-			<string>An Application to access many virtual desktops</string>
+			<string>Access existing DWG files and create new ones at a fraction of the cost of alternative CAD products. A familiar user interface and a minimal learning curve facilitates an easy transition from your current CAD application </string>
 			<key>developer</key>
-			<string>VMware</string>
+			<string>3ds</string>
 			<key>display_name</key>
-			<string>VMware Horizon Client</string>
+			<string>DraftSight</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -29,6 +33,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.sethku.munki.VMwareHorizonClient</string>
+	<string>com.github.sethku.munki.DraftSight</string>
 </dict>
 </plist>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.AppStoreApp.Geogebra</string>
+	<string>local.munki.AppStoreApp.WindowTidy</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps</string>
 		<key>NAME</key>
-		<string>GeoGebra 5</string>
+		<string>Window Tidy</string>
 		<key>PATH</key>
 		<string>/Applications/%NAME%.app</string>
 		<key>pkginfo</key>
@@ -21,7 +21,7 @@
 			<key>display_name</key>
 			<string>%NAME%</string>
 			<key>name</key>
-			<string>geogebra</string>
+			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
