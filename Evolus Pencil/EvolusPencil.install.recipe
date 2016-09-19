@@ -10,8 +10,6 @@
 	<string>com.github.sethku.install.EvolusPencil</string>
 	<key>Input</key>
 	<dict>
-		<key>APP_FILENAME</key>
-		<string>Pencil</string>
 		<key>NAME</key>
 		<string>Evolus Pencil</string>
 	</dict>
