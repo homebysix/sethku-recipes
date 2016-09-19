@@ -10,6 +10,8 @@
 	<string>com.github.sethku.download.Gambit</string>
 	<key>Input</key>
 	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://heanet.dl.sourceforge.net/project/gambit/gambit15/15.1.0/Gambit-15.1.0.dmg</string>
 		<key>NAME</key>
 		<string>Gambit</string>
 	</dict>
@@ -18,21 +20,12 @@
 	<key>Process</key>
 	<array>
 		<dict>
-			<key>Processor</key>
-			<string>SourceForgeURLProvider</string>
-			<key>Arguments</key>
-			<dict>
-				<key>SOURCEFORGE_FILE_PATTERN</key>
-				<string>%NAME%-[0-9_\.]*\.dmg</string>
-				<key>SOURCEFORGE_PROJECT_NAME</key>
-				<string>gambit</string>
-			</dict>
-		</dict>
-		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>%DOWNLOAD_URL%</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
