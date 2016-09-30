@@ -21,9 +21,11 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Create new polls directly in PowerPoint, navigate between Poll Slides, and offer a beautiful, engaging experience to your audience. </string>
 			<key>developer</key>
 			<string>Poll Everywhere, Inc.</string>
+			<key>category</key>
+			<string>Presentation</string>
 			<key>display_name</key>
 			<string>PollEv Presenter</string>
 			<key>name</key>
