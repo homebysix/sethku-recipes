@@ -21,11 +21,9 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Create new polls directly in PowerPoint, navigate between Poll Slides, and offer a beautiful, engaging experience to your audience. </string>
+			<string> </string>
 			<key>developer</key>
 			<string>Poll Everywhere, Inc.</string>
-			<key>category</key>
-			<string>Presentation</string>
 			<key>display_name</key>
 			<string>PollEv Presenter</string>
 			<key>name</key>
@@ -43,24 +41,10 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>additional_pkginfo</key>
-				<dict>
-					<key>version</key>
-					<string>%version%</string>
-				</dict>
-			</dict>
-			<key>Processor</key>
-			<string>MunkiPkginfoMerger</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>pkg_path</key>
 				<string>%pathname%</string>
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
 			</dict>
 			<key>Processor</key>
 			<string>MunkiImporter</string>
