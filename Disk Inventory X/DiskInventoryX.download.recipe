@@ -25,7 +25,7 @@
             <key>Arguments</key>
             <dict>
                 <key>warning_message</key>
-                <string>This recipe has been replaced by: https://github.com/autopkg/dataJAR-recipes/tree/master/Disk%20Inventory%20X. Please use the recipes in te dataJAR-recipes repo instead.</string>
+                <string>This recipe has been replaced by: https://github.com/autopkg/dataJAR-recipes/tree/master/Disk%20Inventory%20X. Please use the recipes in the dataJAR-recipes repo instead.</string>
             </dict>
         </dict>
         <dict>   
